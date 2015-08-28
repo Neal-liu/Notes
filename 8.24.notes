@@ -1,0 +1,39 @@
+#2015 8 24 Summer class 
+
+msr : move ARM (general) register to system coprocessor register.
+mrs : move system coprecessor regitster to ARM (general) register.
+
+psp , psr : 
+	can use this to do context switch
+
+如何增大自己的 cache : 
+	每天回顧自己今天發生的事情：思考
+
+cooperative vs. preemptive scheduling
+
+svc : 
+	svc{cond} #imm
+	imm is ignored by the processor. However, it can be retrieved by the exception handler to determine what service is being requested.
+
+MOSFET : 
+	改變電子的流向
+
+RC circuit : 
+	振盪器
+
+Nyquist - Shannon : 
+	重建訊號!
+
+Baud rate : 
+	從一裝置發到令一裝置的位元率，即每秒鐘傳送多少位元。bit per second (bit/s)
+	57600 38400...
+	ex : 9600 bps, (bit per second)
+	data byte 是 8-bit
+	但一個 byte 傳輸的時候，實際上是 1 start bit + 8 data bits + 1 stop bit = 10 bits
+	9600/10 = 960 bytes, 一秒可以傳 960 bytes.
+
+Lifi : 
+
+
+
+

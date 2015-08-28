@@ -1,0 +1,17 @@
+dag
+libav 
+manifest: 
+	xml , branch , url 
+
+早期用 perforce (like git)
+
+git log -p
+
+master = latest stable + community_fixes
+
+gerrit code review:
+	CLA (android , google)
+
+repo upload
+
+ispell
