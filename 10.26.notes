@@ -1,0 +1,28 @@
+/* 2015.10.12 class notes */
+
+#### Image Processing
+
+## Ch10. Image Segmentation
+
+## Ch4. Image Enhancement in the Frequency Domain
+傅立葉轉換
+	原點移到中心點
+	low-pass filter
+
+把一張圖作 Fourier transform後，在multiply a filter (rather than convolve in the spatial domain), 然後在作 inverse transform 來產生 enhanced images.
+
+如果要作模糊化，則減少 high frequency components.
+
+Ideal 的 frequency lowpass filter 會產生連以效應(ringing effects)，是非常不好的 lowpass filter
+	Smooth transitions in the frequency in the frequency domain filter , such as Butterworth filter.
+	Gaussian Lowpass Filter (不會有 ringing effects)
+
+Image Enhancement techniques : 
+	1.spatial domain methods
+	2.frequency domain methods
+
+References: 
+	http://www.slideshare.net/abhiabhinay/image-enhancement-techniques-24165028
+	http://homepages.inf.ed.ac.uk/rbf/CVonline/LOCAL_COPIES/OWENS/LECT5/node4.html
+
+
