@@ -1,0 +1,41 @@
+/* 2015.11.16 class notes */
+
+#### Image Processing
+
+## Ch11. Representation & Description
+
+Object recognition
+	Rotation
+	Scaling
+	Translation
+
+找尋 skeleton 的方法：
+	1. 不可喪失 end points
+	2. 不可造成 disconnected
+	3. 
+	利用 mask
+
+Curvature : slope 的變化率（利用二階微分）
+	可用圓形繞邊，尖的地方圓形半徑較小，鈍的地方圓形半徑較大
+
+Chain code : 
+	把方向定義成數字，然後每個點到下一點的方向可以記成 chain code. (find shape)
+
+
+Moments : (物體的descriptor)
+	central moments 
+
+object representation : 
+	有多少個holes, 有多少個vertices 有多少個endpoints 有多少個junctions ... (描述文字適合)
+
+
+有些物體很難去描述，例如一幅壁畫 樹木... => 用 texture(紋理)
+	1. Maximum probability
+	2. 
+	3. 
+	4. 
+	5. 
+
+eigenvector
+eigenvalue
+
