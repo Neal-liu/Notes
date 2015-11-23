@@ -1,0 +1,48 @@
+/* 2015.11.23 class notes */
+
+#### Image Processing
+
+## Ch11. Representation & Description
+
+白話來說, 就是一個線性轉換, 可能會存在一向量, 該向量經過該線性轉換得到的結果只有縮放, 沒有旋轉. 該向量即為 eigenvector, 而縮放的大小, 就是 eigenvalue.
+
+
+eigenvector 彼此互相垂直
+
+Dimentionality Reduction
+	所有的data的總失真程度就是 eigenvalue 的大小.
+	C : 所有 data 的 covarience 
+
+## Content-based Image Retrieval
+
+given 一張圖，從很多圖中找一張相似的圖
+
+Content : 
+	color distributions, texture, region shapes, object classification
+
+Relavance Feedback
+	include positive , negative
+
+Recall Rate
+
+Texture Similarity :
+
+切 Grid，然後每個 grid 作比較，算說有多少 grid matches. 這樣的方法比起算整張圖的 feature 來比要來的好。
+如果我們要搜尋一個 object, 假設有張圖有，但被背景影響，所以用 grid 是比較好的。
+
+Shape Similarity : 
+	Shape Histograms
+
+Object recognition : 
+	Face finding
+	Flesh finding 
+	Spatial Relationships
+
+
+## Wavelet transformation
+
+傅立葉轉換
+
+wavelet decomposition of images : 
+	high pulse filter : 取邊，看不到影像的樣子
+	low pulse filter ：模糊化，看得到影像樣子
