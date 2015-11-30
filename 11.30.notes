@@ -1,0 +1,15 @@
+/* 2015.11.30 class notes */
+
+#### Image Processing
+
+## Ch7 Wavelets and Multiresolution Processing
+
+- 作resolution 後, image 的 descriptor 會降低（有些會消失）
+- Harr wavelet
+- 粗精細度的 可以用 細精細度的 function 組合而成
+- 應用：
+	影像壓縮
+	邊緣偵測
+	reference : http://www.wikiwand.com/zh-tw/%E5%B0%8F%E6%B3%A2%E5%88%86%E6%9E%90#/.E6.87.89.E7.94.A8
+
+下禮拜其中
